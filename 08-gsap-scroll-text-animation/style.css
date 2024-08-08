@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#page1, #page2, #page3 {
+    height: 100vh;
+}
+
+#page1{
+    background-color: rgb(0, 0, 0);
+}
+
+
+#page2 {
+    background-color: rgb(0, 0, 0);
+}
+
+
+#page3 {
+    background-color: rgb(0, 0, 0);
+}
+
+
+#move {
+    padding: 2vw 0;
+    background-color: limegreen;
+    display: flex;
+    overflow: hidden;
+}
+
+.marquee {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    padding: 1rem;
+    transform: translateX(-100%);
+}
+
+.marquee h1 {
+    font-size: 4rem;
+}
+
+.marquee img {
+    height: 60px;
+}
